@@ -3,8 +3,8 @@ const mongodb = require("mongodb");
 const MongoClient = mongodb.MongoClient;
 const ObjectId = mongodb.ObjectID;
 
-//const URI_TO_CONNECT_MONGODB =  "mongodb+srv://root:root123@anijitsmongo-mwm6l.mongodb.net/allapps";
-const URI_TO_CONNECT_MONGODB = "mongodb://localhost:27017/allapps";
+const URI_TO_CONNECT_MONGODB =  "mongodb+srv://kapil:khyani@cluster0.t4t7t.mongodb.net/allapps?retryWrites=true&w=majority";
+// const URI_TO_CONNECT_MONGODB = "mongodb://localhost:27017/allapps";
 const DB_NAME = "allapps";
 const COLLECTION_RESTAURANTS = "restaurants";
 
